@@ -43,7 +43,7 @@ async function getQuote(trials = 0) {
   // Start Spin
   quoteContainer.dispatchEvent(spinStart);
 
-  const proxyUrl = 'http://localhost:3000/';
+  const proxyUrl = 'https://allow-cors-proxy.herokuapp.com/';
   const ApiUrl = 'http://api.forismatic.com/api/1.0/?lang=en&method=getQuote&format=json';
 
   try {
